@@ -1,1 +1,6 @@
-export default () => <p>I am Lemon</p>
+import './css/block.css'
+export default () => (
+  <div>
+    <img src='/static/img.png' />
+  </div>
+)
