@@ -1,11 +1,14 @@
 # INSTALL 
 ## yarn 
 
-# RUN 
-## yarn start 
+# DEV
+## yarn dev
+
+# RUN
+## yarn start
 
 # ENDPOINTS 
 ## localhost: 
 
 # DEPLOY 
-## tbd
+## yarn build
