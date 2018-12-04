@@ -1,4 +1,4 @@
-import './css/style.css'
+import './css/reset.css'
 import Block from './Block'
 
 export default () => (
