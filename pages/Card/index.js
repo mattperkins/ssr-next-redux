@@ -1,3 +1,6 @@
 import * as React from 'react'
-import './index.css'
-export default ({ description }) => <p>{description}</p>
+import Link from 'next/link'
+import './card.css'
+export default ({ description, link }) => (
+  <Link href={link}><p className='link'>{description}</p></Link>
+)
