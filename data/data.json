@@ -1,5 +1,17 @@
 [
-  { "name": "Fred" },
-  { "name": "Sandy" },
-  { "name": "Bob" }
+  { 
+    "id": "0",
+    "animation":"card",
+    "description":"this is a description, there is only one like it" 
+  },
+  { 
+    "id": "1",
+    "animation":"card",
+    "description":"this is a description, there is only one like it" 
+  },
+  { 
+    "id": "2",
+    "animation":"card",
+    "description":"this is a description, there is only one like it" 
+  }
 ]
