@@ -7,6 +7,7 @@
 
 # RUN
 ## yarn start
+## exp-start // Express Server (change to 'start' when deploying)
 
 # ENDPOINTS 
 ## localhost: 3000 // next
