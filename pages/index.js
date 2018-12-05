@@ -1,5 +1,5 @@
 import './css/reset.css'
-import './index.css'
+import './main.css'
 import './Block' // importing css from this dir
 import * as React from 'react'
 import data from '../data/data.json'
@@ -16,6 +16,7 @@ export default class Index extends React.Component {
           <Card
             key={card.id}
             description={card.description}
+            link={card.link}
           />))}
       </div>
     )
