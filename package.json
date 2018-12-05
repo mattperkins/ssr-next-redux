@@ -1,6 +1,7 @@
 {
   "scripts": {
     "exp": "node server.js",
+    "exp-start": "NODE_ENV=production node server.js",
     "dev": "next",
     "build": "next build",
     "start": "next start"
