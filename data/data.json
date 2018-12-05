@@ -1,17 +1,17 @@
 [
   { 
     "id": "0",
-    "animation":"card",
+    "link":"/",
     "description":"Same as it ever was"
   },
   { 
     "id": "1",
-    "animation":"card",
+    "link":"/page2",
     "description":"Same as it ever was"
   },
   { 
     "id": "2",
-    "animation":"card",
+    "link":"/lemon",
     "description":"Same as it ever was" 
   }
 ]
