@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "exp": "node server.js",
     "dev": "next",
     "build": "next build",
     "start": "next start"
@@ -9,6 +10,7 @@
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
+    "express": "^4.16.4",
     "next": "^7.0.2",
     "next-redux-wrapper": "^2.0.0",
     "react": "^16.6.3",
