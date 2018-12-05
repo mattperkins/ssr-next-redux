@@ -1,7 +1,12 @@
 import './css/reset.css'
 import './index.css'
-import Block from './Block/'
+import './Block/'
+import * as React from 'react'
 
-export default () => (
-  <Block />
-)
+export default class App extends React.Component {
+  render () {
+    return (
+      <p>hello, world</p>
+    )
+  }
+}
