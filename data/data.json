@@ -2,16 +2,16 @@
   { 
     "id": "0",
     "animation":"card",
-    "description":"this is a description, there is only one like it" 
+    "description":"Same as it ever was"
   },
   { 
     "id": "1",
     "animation":"card",
-    "description":"this is a description, there is only one like it" 
+    "description":"Same as it ever was"
   },
   { 
     "id": "2",
     "animation":"card",
-    "description":"this is a description, there is only one like it" 
+    "description":"Same as it ever was" 
   }
 ]
