@@ -1,12 +1,24 @@
 import './css/reset.css'
 import './index.css'
-import './Block/'
+import './Block/' // importing css from this dir
 import * as React from 'react'
+import data from '../data/data.json'
 
-export default class App extends React.Component {
+const Card = ({ description }) => <p>{description}</p>
+
+export default class Index extends React.Component {
+  static async getInitialProps () {
+    return { cardz: data }
+  }
   render () {
     return (
-      <p>hello, world</p>
+      <div>
+        {this.props.cardz.map(card => (
+          <Card
+            key={card.id}
+            description={card.description}
+          />))}
+      </div>
     )
   }
 }
