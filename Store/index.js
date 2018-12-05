@@ -1,7 +1,7 @@
 import { createStore, applyMiddleware } from 'redux'
 import { composeWithDevTools } from 'redux-devtools-extension'
 import thunkMiddleware from 'redux-thunk'
-import data from './data/data.json'
+import data from '../data/data.json'
 
 // Initial State
 const startState = {
@@ -24,7 +24,7 @@ export const addItem = (item) => {
 }
 
 // Reducers
-export const reducerz = (state = initialState, action) => {
+export const reducer = (state = initialState, action) => {
   switch (action.type) {
     case 'INITIALCARDS':
       return {
@@ -41,5 +41,5 @@ export const reducerz = (state = initialState, action) => {
 
 // Create Store
 export const initStore = (initialState = startState) => {
-  return createStore(reducerz, initialState, composeWithDevTools(applyMiddleware(thunkMiddleware)))
+  return createStore(reducer, initialState, composeWithDevTools(applyMiddleware(thunkMiddleware)))
 }
