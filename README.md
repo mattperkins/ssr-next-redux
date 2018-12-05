@@ -2,13 +2,15 @@
 ## yarn 
 
 # DEV
-## yarn dev
+## yarn dev // run next server
+## yarn exp // run express server 
 
 # RUN
 ## yarn start
 
 # ENDPOINTS 
-## localhost: 
+## localhost: 3000 // next
+## localhost: 3010 // exp
 
 # DEPLOY 
 ## yarn build
